@@ -1,0 +1,196 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c1bdba;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    background-color:rgba(19, 35, 47, 0.9);
+    padding: 40px;
+    margin: 40px auto;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 600px ;
+    margin: 100px auto;
+    padding: 60px;
+    background-color:rgba(19, 35, 47, 0.9);
+    border-radius: 10px;
+}
+
+
+.custom-file-input:before {
+    content: 'Select Your Profile Pic';
+    display: block;
+    background:  #1ab188;
+    padding: 20px ;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+
+.main-tab{
+    list-style: none;
+    padding: 0 ;
+    margin: 0 0 40px 0;
+}
+.main-tab:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.main-tab li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    background: rgba(160, 179, 176, 0.25);
+    color: #a0b3b0;
+    font-size: 2rem;
+    font-weight: 600;
+    float: left;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.main-tab li a:hover {
+    background: aqua;
+    color: black;
+}
+.main-tab .active a {
+    background: #1ab188;
+    color: #ffffff;
+}
+.main-tab-content > div:last-child {
+     display: none;
+ }
+.field-wrap {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+
+label {
+    position: absolute;
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+    left: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 0.25s ease;
+    -webkit-backface-visibility: hidden;
+    pointer-events: none;
+    font-size: 22px;
+}
+.img1{
+    position: absolute;
+    right: 13px;
+    width: 50px;
+    height: 50px;
+
+}
+label .req {
+    margin: 2px;
+    color: #1ab188;
+}
+
+input ,textarea{
+    font-size: 22px;
+    display: block;
+    width: 100%;
+    height: 10%;
+    padding: 5px 10px;
+    border: 1px solid #a0b3b0;
+    background: none;
+    color: #ffffff;
+    border-radius: 0;
+}
+input:focus ,textarea:focus{
+    outline: 0;
+    border-color: #1ab188;
+}
+
+textarea {
+    border: 2px solid #a0b3b0;
+    resize: vertical;
+}
+.button {
+    border: 0;
+    padding: 15px 0;
+    font-size: 2rem;
+    font-weight: 600;
+    background: #1ab188;
+    color: #ffffff;
+
+}
+.button:hover, .button:focus {
+    background: aqua;
+}
+
+.button-block {
+    display: block;
+    width: 100%;
+}
+
+.forgot {
+    margin-top: -20px;
+    text-align: right;
+    color: white;
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    left: 40%;
+    top: 10%;
+    padding: 40px;
+    margin: 40px auto;
+    border-radius: 10px;
+    max-width: 600px;/* Full height */
+    background-color:rgba(19, 35, 47, 0.9);
+}
+
+
+
+/* The Close Button */
+.close, .close1 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close1:hover,
+.close:focus,.close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
